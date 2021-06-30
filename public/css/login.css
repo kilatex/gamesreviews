@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+}
+body.bg-dark{
+  background: url('../img/bg.jpg') no-repeat center top !important;
+  background-size: cover;
+}
+
+.login-title{
+  font-family: 'Bebas Neue', cursive !important;
+  text-align: center;
+  font-size: 48px !important;
+  color: white;
+}
+
+.login-box {
+  min-width: 320px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 80px 30px;
+  margin-top: 60px;
+}
+.signup-box{
+  margin-top: 20px;
+  width: 35%;
+  padding-bottom: 0px;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+.login-box h2 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  transition: all 300ms;
+}
+
+.login-box input[type="text"], .login-box input[type="password"], .login-box input[type="email"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+
+}
+
+
+.login-box a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+
+/* ESTILOS DEL SIGN UP */
+
+.login-box span.title-login{
+  display: block;
+  line-height: 0;
+  font-size: 36px;
+  letter-spacing: 5px;
+  margin-top: -60px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  transition: all 300ms;
+}
+
+.login-box span.title-login:hover{
+  text-shadow: 0px 0px 40px white !important;
+}
+
+.msg-error{
+  display: none;
+  color: white;
+  background: red;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}

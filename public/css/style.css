@@ -1,0 +1,71 @@
+ .avatar{
+    width: 35px;
+    height: 35px;
+}
+.nav-item .avatar{
+    border-radius: 50px;
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: 5px !important;
+}
+.image-post{
+    width: 100%;
+}
+.card-body.container-post{
+    padding: 0px !important;
+}
+.likes{
+    margin-top: 5px !important;
+}
+.image-container {
+    max-height: 400px !important;
+    overflow: hidden !important;
+}
+
+
+.user-info-post img{
+    width: 40px !important;
+    border-radius: 5000px;
+}
+.card-description{
+    margin-top: -10px;
+}
+
+.likes i.dislike{
+    font-size: 22px !important;
+    color: red;
+}
+.likes i.like{
+    font-size: 22px !important;
+    color: white !important;
+}
+.likes a i.like{
+    color: white;
+}
+.likes a{
+    outline: none !important;
+    text-decoration: none;
+    border: none;
+    transition: all 300ms;
+    color: white !important;
+    cursor: pointer;
+}
+
+.img-container.image-detail{
+    max-height: 500px !important;
+}
+.img-container{
+    max-height: 400px;
+    overflow: hidden !important;
+}
+
+.img-container-info{
+    max-height: 50%;
+    overflow: hidden !important;
+    text-align: center;
+}
+.img-container-info img{
+    width: 50% !important;
+    border-radius: 5000px;
+
+}
